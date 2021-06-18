@@ -1,11 +1,16 @@
 import './App.css';
-import Entry from "./pages/entry/Entry";
+import DefaultLayout from './layout/DefaultLayout';
+import Dashboard from './pages/dashboard/Dashboard';
+//import Entry from "./pages/entry/Entry";
 
 
 function App() {
   return (
     <div>
-  <Entry />
+  {/* <Entry /> */}
+  <DefaultLayout>
+    <Dashboard />
+  </DefaultLayout>
     </div>
   );
 }
