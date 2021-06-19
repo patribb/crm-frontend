@@ -1,6 +1,8 @@
 import './App.css';
 import DefaultLayout from './layout/DefaultLayout';
-import Dashboard from './pages/dashboard/Dashboard';
+import TicketLists from './pages/ticket-listin/TicketLists';
+//import Dashboard from './pages/dashboard/Dashboard';
+//import AddTicket from './pages/new-ticket/AddTicket';
 //import Entry from "./pages/entry/Entry";
 
 
@@ -9,7 +11,9 @@ function App() {
     <div>
   {/* <Entry /> */}
   <DefaultLayout>
-    <Dashboard />
+    {/* <Dashboard /> */}
+    {/* <AddTicket /> */}
+    <TicketLists />
   </DefaultLayout>
     </div>
   );

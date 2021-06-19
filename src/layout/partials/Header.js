@@ -9,7 +9,7 @@ const Header = () => {
         <img
           src={logo}
           alt="logo"
-          width="90px"
+          width="100px"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
